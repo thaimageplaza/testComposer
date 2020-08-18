@@ -2,7 +2,7 @@
   "name": "thaimageplaza/hello-world",
   "description": "the first composer package",
   "type": "php",
-  "license": "9cac853bbcf5d2c9249aa0f324a6eed6ae25f532",
+  "license": "proprietary",
   "authors": [
     {
       "name": "thainc",
