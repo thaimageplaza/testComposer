@@ -1,29 +1,26 @@
 {
-  "name": "thaimageplaza/testComposer",
-  "description": "Magento 2 Two Factors Authentication Extension",
-  "require": {
-    "mageplaza/module-core": "^1.4.5",
-    "sinergi/browser-detector": "*",
-    "bacon/bacon-qr-code": "*",
-    "sonata-project/google-authenticator": "2.0.0"
-  },
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "Mageplaza",
-      "email": "support@mageplaza.com",
-      "homepage": "https://www.mageplaza.com",
-      "role": "Technical Support"
-    }
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "my-project",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "thaimageplaza/testComposer",
+                "version": "dev-master",
+                "type":"magento2-module",
+                "source": {
+                    "url": "https://github.com/thaimageplaza/testComposer",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
     ],
-    "psr-4": {
-      "Mageplaza\\TwoFactorAuth\\": ""
+    "require": {
+        "composer/installers": "^1.2"
     }
-  }
 }
