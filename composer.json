@@ -2,11 +2,11 @@
   "name": "thaimageplaza/hello-world",
   "description": "the first composer package",
   "type": "php",
-  "license": "aaa",
+  "license": "9cac853bbcf5d2c9249aa0f324a6eed6ae25f532",
   "authors": [
     {
       "name": "thainc",
-      "email": "nguyenthaikma"
+      "email": "nguyenthaikma@gmail.com"
     }
   ],
   "minimum-stability": "dev",
