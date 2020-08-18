@@ -1,6 +1,6 @@
 {
-  "name": "thaimageplaza/test-composer",
-  "version": "1.0.0",
-  "type": "magento2-module"
+  "name":"thaimageplaza/test-composer",
+  "version":"1.0.0",
+  "type":"magento2-module"
 
 }
