@@ -1,5 +1,5 @@
 {
-  "name": "mageplaza/test-composer",
+  "name": "thaimageplaza/test-composer",
   "description": "Magento 2 Two Factors Authentication Extension",
   "require": {
     "bacon/bacon-qr-code": "*"
