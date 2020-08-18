@@ -1,26 +1,11 @@
 {
   "name": "thaimageplaza/test-composer",
-  "description": "Magento 2 Two Factors Authentication Extension",
-  "require": {
-    "mageplaza/module-core": "^1.4.5",
-    "bacon/bacon-qr-code": "*"
-  },
-  "type": "magento2-module",
   "version": "1.0.0",
-  "authors": [
-    {
-      "name": "Mageplaza",
-      "email": "support@mageplaza.com",
-      "homepage": "https://www.mageplaza.com",
-      "role": "Technical Support"
-    }
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
-    ],
-    "psr-4": {
-      "Mageplaza\\TwoFactorAuth\\": ""
-    }
-  }
+  "dist": {
+    "url": "https://www.smarty.net/files/Smarty-3.1.7.zip",
+    "type": "zip"
+  },
+  "downloads": [
+    {"name": "thaimageplaza/test-composer", "version": "1.0.0"}
+  ]
 }
