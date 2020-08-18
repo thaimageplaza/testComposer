@@ -1,26 +1,21 @@
 {
-  "name": "thaimageplaza/test-composer",
-  "description": "Magento 2 Two Factors Authentication Extension",
-  "require": {
-    "bacon/bacon-qr-code": "*"
-  },
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "license": "proprietary",
+  "name": "thaimageplaza/hello-world",
+  "description": "the first composer package",
+  "type": "php",
+  "license": "aaa",
   "authors": [
     {
-      "name": "Mageplaza",
-      "email": "support@mageplaza.com",
-      "homepage": "https://www.mageplaza.com",
-      "role": "Technical Support"
+      "name": "thainc",
+      "email": "nguyenthaikma"
     }
   ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  },
   "autoload": {
-    "files": [
-      "registration.php"
-    ],
     "psr-4": {
-      "Mageplaza\\TwoFactorAuth\\": ""
+      "Thaimp\\SayHello\\": "src/"
     }
   }
 }
